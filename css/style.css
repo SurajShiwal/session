@@ -1,0 +1,102 @@
+body {
+     font-family:Arial, Sans-Serif;
+     text-align: center;
+}
+.clearfix:before, .clearfix:after{
+     content: "";
+     display: table;
+}
+.clearfix:after{
+     clear: both;
+}
+a{
+     color:#0067ab;
+     text-decoration:none;
+}
+a:hover{
+     text-decoration:underline;
+}
+
+input[type='text'], input[type='email'],
+input[type='password'] {
+     width: 200px;
+     border-radius: 2px;
+     border: 1px solid #CCC;
+     padding: 10px;
+     color: #333;
+     font-size: 14px;
+     margin-top: 10px;
+}
+input[type='submit']{
+     padding: 10px 25px 8px;
+     color: #fff;
+     background-color: #0067ab;
+     text-shadow: rgba(0,0,0,0.24) 0 1px 0;
+     font-size: 16px;
+     box-shadow: rgba(255,255,255,0.24) 0 2px 0 0 inset,#fff 0 1px 0 0;
+     border: 1px solid #0164a5;
+     border-radius: 2px;
+     margin-top: 10px;
+     cursor:pointer;
+}
+input[type='submit']:hover {
+     background-color: #024978;
+}input[type=text], select, input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+#container
+{
+    text-align: left;
+    width: 500px;
+    margin: auto;
+
+}
+button {
+    width: 45%;
+    background-color: rgb(102, 102, 51);
+    color: white;
+    padding: 14px 20px ;
+    margin: 27px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 25px;
+    color: black;
+    box-sizing: border-box;
+}
+#register-button.#details-button,#delete-button
+{
+    
+
+}
+button:hover {
+    background-color: rgb(170, 170, 85);
+}
+label
+{
+    font-size: 20px;
+}
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+body
+{
+    text-align: center;
+}
+#message
+{
+    text-align: left;
+    color: rgb(213, 45, 45);
+}
+div#more-details {
+    padding-left: 0px;
+}
